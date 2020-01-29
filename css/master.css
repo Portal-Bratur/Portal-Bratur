@@ -1,0 +1,82 @@
+/*Background e Definições Gerais*/
+body{
+  font-family: "Trebuchet MS", sans-serif;
+  background-image: url("../images/Logo-site-background.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*Barra de Navegação*/
+.navegacao{
+  background: rgba(239,239,239,0.9);
+}
+
+.imagem img{
+ width: 16em;
+ margin-top: 15px;
+ padding-bottom: 10px;
+}
+
+.navbar-light .navbar-toggler{
+  border: none;
+}
+
+#selecionado{
+  color: #1E90FF;
+}
+
+/*Textos e Links*/
+.texto h2{
+  margin: 1.8em auto 1em auto;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.texto p{
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+.icones-link{
+  color: black;
+}
+
+.icones-link:hover{
+  text-decoration: none;
+  color: #1E90FF;
+}
+
+/*Imagens*/
+.logo{
+  margin: 4em auto 2em auto;
+}
+
+.interface img{
+  width: 12em;
+  margin: 5em auto 2em auto;
+}
+
+.icones{
+  width: 5em;
+  height: 5em;
+  background-image: url("../images/Perfil.png");
+}
+
+/*Cores*/
+.cor-site{
+  background-color: white;
+}
+
+/*Media Querries*/
+@media (max-width: 575.98px){
+  .imagem img{
+   width: 14em;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+
+
+}
